@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="img/fla.png" alt="Logo do portfólio" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Fale Conosco</h1>
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section class="mapa">
+            <h2>Localização</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14692.706800120784!2d-43.25145443304512!3d-22.980528912413607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd432b61ca943%3A0xbc774597eafa72be!2sG%C3%A1vea%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-PT!2sbr!4v1759786123360!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
