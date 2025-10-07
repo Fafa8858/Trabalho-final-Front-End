@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     if (document.title.includes('Meu Portfólio')) {
-        alert('Bem-vindo ao Meu Portfólio!');
     }
 });
 document.addEventListener('submit', (e) => {
